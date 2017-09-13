@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Mines_Test" max_length="40" name="x_127116_aces_core_mines_test" type="collection">
+        <element attributes="import_attribute_name=COMET id,edge_encryption_enabled=true" label="COMET id" max_length="40" name="u_comet_id" type="string"/>
+        <element attributes="import_attribute_name=Id,edge_encryption_enabled=true" label="Id" max_length="40" name="u_id" type="string"/>
+        <element attributes="import_attribute_name=Id (O),edge_encryption_enabled=true" label="Id (O)" max_length="40" name="u_id__o_" type="string"/>
+        <element attributes="import_attribute_name=Large mine,edge_encryption_enabled=true" label="Large mine" max_length="40" name="u_large_mine" type="string"/>
+        <element attributes="import_attribute_name=Location,edge_encryption_enabled=true" label="Location" max_length="43" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=Mine Phone,edge_encryption_enabled=true" label="Mine Phone" max_length="40" name="u_mine_phone" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Operation type,edge_encryption_enabled=true" label="Operation type" max_length="40" name="u_operation_type" type="string"/>
+        <element attributes="import_attribute_name=Operator,edge_encryption_enabled=true" label="Operator" max_length="40" name="u_operator" type="string"/>
+        <element attributes="import_attribute_name=Operator contact,edge_encryption_enabled=true" label="Operator contact" max_length="40" name="u_operator_contact" type="string"/>
+        <element attributes="import_attribute_name=QWIR Contact,edge_encryption_enabled=true" label="QWIR Contact" max_length="40" name="u_qwir_contact" type="string"/>
+        <element attributes="import_attribute_name=Region,edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=﻿&quot;Row #&quot;,edge_encryption_enabled=true" label="﻿&quot;Row #&quot;" max_length="40" name="u___row___" type="string"/>
+    </element>
+</database>

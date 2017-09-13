@@ -4,7 +4,9 @@
         <element label="COMET id" max_length="40" name="comet_id" type="string"/>
         <element label="Large mine" max_length="40" name="large_mine" type="boolean"/>
         <element choice="1" label="Operation type" max_length="40" name="operation_type" type="choice">
-            <choice/>
+            <choice>
+                <element label="To Be Determined" sequence="0" value="To Be Determined"/>
+            </choice>
         </element>
         <element label="Operator" max_length="32" name="operator" reference="core_company" type="reference"/>
         <element label="Operator contact" max_length="32" name="operator_contact" reference="sys_user" type="reference"/>
@@ -13,10 +15,14 @@
             <choice/>
         </element>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+            <choice>
+                <element label="Under Care and Maintenance" sequence="0" value="Under Care and Maintenance"/>
+            </choice>
         </element>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice/>
+            <choice>
+                <element label="To Be Determined" sequence="0" value="To Be Determined"/>
+            </choice>
         </element>
         <index name="index">
             <element name="operator_contact"/>
