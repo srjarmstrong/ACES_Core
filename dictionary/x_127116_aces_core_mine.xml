@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="alm_asset" label="Mine" max_length="40" name="x_127116_aces_core_mine" type="collection">
+        <element attributes="format=none" label="ACES id" max_length="40" name="aces_id" type="integer"/>
         <element label="COMET id" max_length="40" name="comet_id" type="string"/>
         <element label="Large mine" max_length="40" name="large_mine" type="boolean"/>
         <element choice="1" label="Operation type" max_length="40" name="operation_type" type="choice">
