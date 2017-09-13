@@ -15,6 +15,9 @@
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice/>
         </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
         <index name="index">
             <element name="operator_contact"/>
         </index>
